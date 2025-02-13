@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Login page</title>
+</head>
+<body>
+    <div class="container d-flex justify-content-center align-items-center vh-100">
+        <div class="register d-flex flex-column rounded-3 p-4 shadow-lg w-100" style="max-width: 600px;">
+            <div class="row align-items-center justify-content-center mx-auto flex-column-reverse flex-md-row">
+                <div class="col-12 col-md-6 text-center">
+                    <h1 class="text-center text-md-start">Login</h1>
+                    <div class="form">
+                        <input type="email" id="userEmail" placeholder="Email" class="form-control mb-2">
+                        <input type="password" id="password" placeholder="Password" class="form-control mb-2">
+                        <button type="submit" onclick="login()" class="btn btn-primary w-100 mb-3">Login</button>
+                        <p class="message text-center">Not registered? <a href="/index.html">Register</a></p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 text-center">
+                    <img src="./image/signup-image.jpg" class="img-fluid rounded w-75" alt="signup-image">
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="./Js/bootstrap.bundle.min.js"></script>
+    <script src="./Js/login.js"></script>
+</body>
+</html>
